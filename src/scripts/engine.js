@@ -131,7 +131,7 @@ function updateRank() {
 
 function initialize() {
     reset();
-    state.actions.timerId = setInterval(randomSquare, 1000),
+    state.actions.timerId = setInterval(randomSquare, 800),
     state.actions.countDownTimerId = setInterval(countDown, 1000),
     state.values.gameover = false;
     state.view.startButton.disabled = true;
