@@ -19,7 +19,7 @@
 }
 
 .panel {
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,8 +28,8 @@
 .square {
     height: 150px;
     width: 150px;
-    border: 1px solid #000000;
-    background-color: #1AEAA5;
+    border: 2px solid #000000;
+    background-color: #ffd700;
 }
 
 .enemy {
@@ -52,4 +52,80 @@
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2) {
     margin-top: 1rem;
+}
+
+#start-button {
+    height: 70px;
+    width: 240px;
+    margin-top: 3rem;
+    align-self: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 5px solid #FFD700;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#start-button:disabled {
+    opacity: .5;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#left {
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+#center {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+}
+
+#right {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.rank {
+    align-content: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #000000;
+    text-transform: uppercase;
+}
+
+.rank h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.rank-position {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.rank td {
+    padding-bottom: 1.2rem;
+}
+
+.rank-name {
+    padding-left: 0.5rem;
+}
+
+.table-score {
+    padding-left: 1rem;
 }
